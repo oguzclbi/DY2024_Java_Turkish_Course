@@ -1,0 +1,40 @@
+Exceptionlar ikiye ayrılır  Unchecked Exception - Checked Exception
+Diğer bir isimlendirme ise    Runtime Exception - Compile Time Exception
+
+Handle Etme yöntemleri ikiye ayrılır.
+1-) Try-Catch
+2-) Throws keyword
+
+***Throws ve throw farkı***
+Throws: Exception handling yöntemi
+throw : exceptionu fıtlatma atma yöntemi(Yukarıdakinden farklı bişey)
+
+Exceptions ları kendimize özel custom create edebiliriz. Create ederken
+Exception classımızı oluşturup Parent classlarını extend etmemiz gerekir.
+
+***Unchecked Exceptionların babası Runtime Exception
+Yani RuntimeExceptionu extend edersek çalışma zamanı hatalarını custom create edebiliriz.
+***Checked Exceptionların babası Exception
+Yani Exceptionu extend edersek derleme zamanı hatalarını custom create edebiliriz.
+
+
+Error ların çözümü yok tek çözüm sourcenin yani kaynakların
+değiştirilmesi. Muhtemelen size verilen kaynaklar yetmiyordur.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+***Unchecked Exceptionların babası Runtime Exception
+Yani RuntimeExceptionu extend edersek çalışma zamanı hatalarını custom create edebiliriz.
+***Checked Exceptionların babası Exception
+Yani Exceptionu extend edersek derleme zamanı hatalarını custom create edebiliriz.

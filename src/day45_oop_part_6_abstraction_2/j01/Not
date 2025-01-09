@@ -1,0 +1,17 @@
+Herkesin uyması gereken kuralları classlara(abstract classlara)
+Bazılarının uyması gereken kuralları interfacelere koyman gerekir.
+
+
+INSTANCE METHOD
+Objeye ait methodlardır yani static methodlar değildir
+
+
+
+polymorphism
+Exception
+collections
+maps
+generic
+stream
+Opitonal
+konuları kaldı işlenecek.

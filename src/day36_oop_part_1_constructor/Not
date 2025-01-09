@@ -1,0 +1,62 @@
+Obje oluşturmak için  Cons lar olmak zorundadır. Öyleki Cons u biz oluşturmaz
+isek java kendisi arka planda default Cons oluşturur.
+Cons olmadan obje create edemeyiz
+
+3 çeşit constructor vardır.
+
+1-Default Cons lar da fieldların default değerleri javanın vermiş olduğu default
+değerlerdir. (String için null, int için 0 gibi)
+obje oluşturulurken default constructor her zaman çağırılır
+
+
+2-No Argument Cons lar iki temel sebep için kullanılırlar
+-Obj create etmek
+-Field initialize etmek (içini doldurmak) ilk default değerleri atamak
+yani kendi objemize kendi istediğimiz default ayarları yapıyoruz
+
+
+
+3-Paramaterized Constructor
+Objeyi oluştururken fieldlere değerleri parametler ile dışarıdan almak için kullanılır.
+
+
+
+!!! Bir class içerisinde birden fazla Cons olabilir
+
+
+Cons Chaining (Temiz kod yazmak için)
+!!! Bir cons içinde başka bir Consu çağırabiliriz
+!!! CONSTRUCTOR CALL HER ZAMAN İLK SATIRDA OLACAK
+Bİr consdan diğer bir consun çağrılamsına cons chaining diyoruz
+
+Aynı Cons birden fazla kez farklı parametreler ile oluşturulur ise
+buna CONSTRUCTOR OVERLOADİNG denir.
+CONSTRUCTOR OVERLOADİNG yaparsak No Argument Constructor u eklememiz gerekir
+Çünkü CONSTRUCTOR OVERLOADİNG yaptığımızda Default Cons silinir
+
+*** this ve this() keywordleri farklıdır
+this. obje için kullanılırken this() aynı class içerisindeki Cons ların birbirini çağırması için kullanılır.
+this.name=name; ---> Objenin parametresinden gelen name değerini Cons un field ına assing eder
+this(name); ---> bir Cons içerisinde ilk satırda yazıldığında başka bir Con içerisinde initialize
+edilmiş olan name fieldini initialize için çağırır. Yani aynı class içerisindeki consları çağırır.
+
+
+
+
+***Inıtializer Block
+Genelde Obje create etmeden önce bazı bieldlerin value lerini assing etmek için kullanılır.
+Kullanımı;
+{
+    this.fuelLevel=100;
+    System.out.println("Init block 1");
+}
+
+Bu blok obje create etmeden önce ve CONSTRUCTORDAN ÖNCE ÇALIŞIYOR
+Ve bu blok bütün Contructorlara etki eder.(Yani bütün Conslar için çalışır)
+Birden fazla Inıtializer Block tanımlaması yapılabilir ve yukarıdan aşağıya doğru
+sıra ile çalışır.
+
+
+
+
+

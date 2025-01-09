@@ -1,0 +1,45 @@
+Görev 1:
+
+Bir Shape class oluşturun.
+
+Her şeklin bir alanının olduğunu ve farklı şekilde hesaplandığını unutmayın.
+
+Buna uygun methodu calculateArea() methodunu değeri return edecek şekilde Shape classına ekleyin.
+
+___________________________________________________
+
+
+Görev 2:
+
+- Bir Circle class oluşturun ve aşağıdaki field ekleyin.
+
+radius:double
+
+- Constrtuctor oluşturarak radius fielda gerekli değeri atayın.
+
+- Circle classın bir Shape olduğunu unutmayın.
+
+- calculateArea() methodunu uygun bir şekilde implement edin.
+
+- toString methodu ile objelere ait alan ve radius bilgilerini yazdırın.
+
+___________________________________________________
+
+Görev 3:
+
+- Bir Rectangle class oluşturun ve aşağıdaki field ekleyin.
+
+width:double
+length:double
+
+- Constrtuctor oluşturarak width ve  length fieldlara gerekli değerleri atayın.
+
+- Rectangle classın bir Shape olduğunu unutmayın.
+
+- calculateArea() methodunu uygun bir şekilde implement edin
+
+- toString methodu ile objelere ait alan, width ve length  bilgilerini yazdırın.
+
+
+
+.

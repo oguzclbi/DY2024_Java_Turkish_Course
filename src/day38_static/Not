@@ -1,0 +1,13 @@
+Static variable
+Objelere ait değildir Staticler class seviyesindedir yani classa aittir.
+Objelerin üst seviyesindedir ve static variablelere direk class ismi ile ulaşılabilir.
+Daha fazla bilgi için CircleObj.java classını incele.
+Yani özetle herhangi bir class tan türetilen tüm objeler aynı değer atansın diye kullanılıyor.
+
+instance variable
+objeye ait olan demek
+
+static block
+Bir işi herşeyden önce ve sadece bir kez yapacaksak kullanırız. Ör:instagramda Log in olmak gibi
+NOT:Genelde static field ler static block içerisinde initialize edilir.
+NOT: static CONSTRUCTOR olamaz.

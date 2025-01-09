@@ -1,0 +1,3 @@
+Bir method olacak iki parametre alacak
+FirstName-LastName
+Çıktı olarak FirstName LastName

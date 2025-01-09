@@ -1,0 +1,5 @@
+Most Common Built-in Functional Interface
+1)Predicate<T>
+2)Consumer<T>
+3)Funciton<T>
+4)Supplier

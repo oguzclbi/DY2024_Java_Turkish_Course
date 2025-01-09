@@ -1,0 +1,28 @@
+Exceptionlar ikiye ayrılır:
+1-Unchecked Exceptions ==> Parent classı RuntimeException
+2-Checked Exceptions
+
+
+***1-Unchecked Exceptions***
+Kodu yazdığınızda herhangi bir hata vermez. Kodu run ettikten sonra hata verir.
+Exceptiondan sonra program çalışmaya devam etmez.
+
+
+
+
+
+***try-catch-finally***
+Kullanma sebebimiz hatanın olduğu yeri yakalayıp kullanıcıya
+geribildirim vermek. Eğer kullanmaz isek kodumuzun çalışması durur.
+Kullandığımızda sadece hata aldığımız yerde geribildirim verip
+kodun kaldığı yerden çalışmasını sağlayabiliriz. Yani özetle
+kullanıcının yapabileceği hataları önceden öngörerek kodumuzun
+ilgili bölümlerinde önlemler almamızı sağlayan bir yapıdır. kullanıcı
+hata yaptığında örneğin hatalı bir username girişi yaptığında kodumuzun
+tamamı patlamasın biz kullanıcıya yaptığı hata ile ilgili geri bildirim
+verelim ve kodumu düzgünce çalışmaya devam etsin.
+NOT: try bloğunda kodun fırlattığı hata türünü catch() parantezleri
+içine yazmamız lazım ki catch bloğu bu hatayı yakalayabilsin.Eğer
+hata türünü bilmiyorsak (Exception e) yazabiliriz yani herhangi bir
+hata olabilir anlamında. Fakat tercih ettiğimiz bir yöntem değil.
+Cahil developer derler adama.

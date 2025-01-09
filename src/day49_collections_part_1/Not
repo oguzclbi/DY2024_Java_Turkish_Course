@@ -1,0 +1,11 @@
+Arrays.asList() ve List.of() metodları ile new keywordu kullanmadan liste oluşturabiliriz.
+Fakat listeyi bir kere oluşturabiliriz ama ekleme çıkarma yapamayız.
+Yani tek seferlik toplu eklemeler için kullanırız genelde.
+
+***LinkedList***
+iki çeşittir.
+1)Singly LinkedList
+2)Doubly LinkedList
+
+Eğer listeye sürekli eleman ekleme çıkarma değitirme yapılacaksa LinkedList kullanmak daha mantıklı
+Sadece data çekeceksek ArrayList kullanmak daha mantıklı

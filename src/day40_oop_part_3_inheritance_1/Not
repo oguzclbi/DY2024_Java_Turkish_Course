@@ -1,0 +1,37 @@
+Object classı tüm class ların Parent classı dır.
+Bütün classlar Object classı otomatikmen inherite ederler.
+Diğer bütün classlar Object classının child clasıdır.
+
+*Bir fiil düzeyinde kendimizi tekrar ediyorsak yapılan fiili
+bir metod oluşturup o metodun içine koyuyor ve daha sonra o metodu çağırıyorduk
+
+** Kendimizi line düzeyinde tekrar ediyorsak line ı bir loop içerisine koyuyorduk
+
+Eğer kendimizi class düzeyinde tekrar etmeye başladıysak bir baba class oluşturup
+tekrar edilen field ve metotdları oraya koyup alt classlardan baba classı extend
+ederek gerektiğinde baba classta bulunan fields ve metodları kullanabiliriz.
+
+What is inheritance?
+-inheritance is a relationship
+
+What is Inherited?
+
+-All accessible variable & methods are inherited.
+-Private variables and methods are not inherited.
+-Constructors are not inherited.***
+
+
+
+/*
+Parent classta cons oluşturmadan önce herhangi bir hata vermiyor. Bunun sebebi
+sub class içerisindeki default cons otomatik olarak Parent class yani super classtaki
+default consu işaret ediyor.
+Fakat parent class ta bir Paramaterized Constructor oluşturduğumuzda program hata veriyor.
+çünkü parent classtan default cons yokoluyor ve sub classlarda bulunan default consların
+işaret ettiği consa ulaşılamıyor(Parent clastakine ulaşulamıyor).
+Bu hatanın iki türlü çözümü var:
+1)Parent classta Paramaterized Constructora ek olarak default consu da manuel olarak eklemek.
+ya da
+2)Sub classlarda Parent classtaki Paramaterized Constructor u işaret eden yeni bir cons yazmak.
+Bunun için hata veren yere mouse ile hover-over yaparsak IDE bize yardımcı oluyor.
+*/

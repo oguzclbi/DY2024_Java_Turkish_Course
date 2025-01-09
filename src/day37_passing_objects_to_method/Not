@@ -1,0 +1,24 @@
+Passing Object to Method
+
+Bir metoda parametre olarak bir obje gönderebiliriz.
+Burada dikkat edilmesi geren şey parametre olarak objenin referansını
+metoda geçmektir.
+
+Örneğin;
+
+Referans tipi - Referans - new Keyword - Constructor
+Apple apple=new Apple();
+
+changeColor(apple); //Burada objenin REFERANS'ı metoda parametre olarak gönderildi
+
+                         Referans tipi - parametre
+private static void changeColor(Apple obj) {
+    }
+
+
+***Bu işlemleri yaptıktan sonra Objenin orjinali üzerinde değişiklik yapmış oluruz
+kopyası üzerinde değil.
+Dolayısıyla objelerle classslarla ilgili işlemlerde dikkatli olunması gerekir
+
+Yani özetle Objelerle çalışırken hep orjinal üzerinde çalışılır.
+Primitivelerde kopya üzerinde çalışılır.
